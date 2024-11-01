@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <title>Caravel Entertainment</title>
+</head>
+<body>
+    <div class="podes dar uma descrição para no commit">
+        <img src="./assets/img/image_3.1.jpeg" alt="Background Image" class="background-image">
+    </div>
+    <!-- Seccão NavBar -->
+    <nav id="navbar" class="navbar">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#navbar"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#partners"><li>Partners</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </div>
+        <div class="navbar-logo">
+            <img src="./assets/icons/caravel_complet_logo.svg" alt="Logo">
+        </div>
+    </nav>
+
+    <!-- Seccão About us -->
+    <div id="about" class="about_container">
+        <div class="about_title">
+            <img src="./assets/icons/C_logo.svg" alt="Logo" class="logo-img">
+            <h1>About us</h1>
+        </div>
+        <div class="about_text">
+            <p>Caravel offers punters in Portugal a safe and innovative online 
+            betting experience through the Moosh platform, with a focus on 
+            respecting local culture, promoting transparency and responsible 
+            gambling.</p>
+            <p>Caravel invests in cutting-edge technology and security to offer 
+                an intuitive and reliable experience. The mission is to create 
+                an exciting and secure betting environment adapted to the user's 
+                needs.</p>
+          <!-- <button class="btn_about">Get in touch!</button> -->
+          <a href="#contact" class="btn_about">Get in touch!</a>
+        </div>
+    </div>
+    <!-- Seccão Partners -->
+    <div id="partners" class="partners_container">
+        <div class="partners_title">
+            <img src="./assets/icons/C_logo.svg" alt="Logo" class="logo-img">
+            <h1>Partners</h1>
+        </div>
+        <div class="partners_text">
+          <p>Moosh, operated by Caravel Entertainment, is an online casino site 
+            that offers a reliable gaming experience adapted to 
+            local preferences. Committed to security and responsible fun, it is 
+            a leading platform in the Portuguese market.</p>
+          <button class="btn_partners">
+            <a href="https://www.moosh.pt/">
+                <img src="./assets/img/moosh_logo.png" alt="logo" class="logo_moosh">
+            </a>
+          </button>
+        </div>
+        <div class="bkg_img">
+            <img src="./assets/img/image_2.png" alt="Partners" class="partners-img">
+        </div>
+    </div>
+
+    <!-- Seccão Contact -->
+    <div id="contact" class="contact_container">
+        <div class="contact_title">
+            <img src="./assets/icons/C_logo.svg" alt="Logo" class="logo-img">
+            <h1>Contact us</h1>
+        </div>
+        <div class="contact_form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <!-- <label for="name">Nome</label> -->
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="email">E-mail</label> -->
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="message">Mensagem</label> -->
+                    <textarea id="message" name="message" placeholder="Message..." required></textarea>
+                </div>
+                <button type="submit">
+                    <span class="iconify" data-icon="fa:send-o" data-inline="false"></span>
+                    Send
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pop-Up -->
+    <div class="popup" id="successPopup">
+        <div class="popup-content">
+            <span class="close-popup" id="closePopup">&times;</span>
+            <p>Formulário enviado com sucesso!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="./assets/icons/symbol_logo.svg" alt="Logo">
+            <img src="./assets/icons/letters_logo.svg" alt="Logo">
+        </div>
+        <div class="footer-text">
+            <div class="menu-section">
+                <a href="#about">
+                    <span class="iconify" data-icon="mdi:information-outline" data-inline="false"></span>
+                    About us
+                </a>
+            </div>
+            <div class="menu-section">
+                <a href="#partners">
+                    <span class="iconify" data-icon="mdi:handshake-outline" data-inline="false"></span>
+                    Partners
+                </a>
+            </div>
+            <div class="menu-section">
+                <a href="#contact">
+                    <span class="iconify" data-icon="mdi:email-outline" data-inline="false"></span>
+                    Contact
+                </a>
+            </div>
+        </div>
+        <div class="footer-background">
+            <img src="./assets/icons/symbol_white_logo.svg" alt="Footer Background" class="footer-background-img">
+        </div>
+        <div class="copyright-text">
+            <div class="rights_text">Copyright © 2023 - Caravel Entertiment</div>
+        </div>
+    </footer>
+
+    <!-- Importação ficheiro Javascript -->
+    <script src="./scripts.js" defer></script>
+</body>
+</html>
